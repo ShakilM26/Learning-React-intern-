@@ -8,11 +8,12 @@ import List from './Learning Journey/PropsDestructuring'
 import CounterTask from './Learning Journey/State'
 import SimpleForm from './Learning Journey/Form Handling/FormHandling'
 import ValidationForm from './Learning Journey/Form Handling/MultipleInput';
+import UncontrolledForm from './Learning Journey/Form Handling/UncontrolledForm';
 
 function App() {
   return (
     <>
-    <ValidationForm />
+    <UncontrolledForm />
     </>
   )
 }
