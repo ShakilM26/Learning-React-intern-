@@ -9,11 +9,12 @@ import CounterTask from './Learning Journey/State'
 import SimpleForm from './Learning Journey/Form Handling/FormHandling'
 import ValidationForm from './Learning Journey/Form Handling/MultipleInput';
 import UncontrolledForm from './Learning Journey/Form Handling/UncontrolledForm';
+import ParentInfo from './Learning Journey/Lifting State Up/Parent';
 
 function App() {
   return (
     <>
-    <UncontrolledForm />
+    <ParentInfo />
     </>
   )
 }
