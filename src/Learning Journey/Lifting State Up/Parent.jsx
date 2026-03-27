@@ -16,6 +16,7 @@ export default function ParentInfo() {
 
   return (
     <div className="p-4 border">
+      <h1 className="font-bold text-lg">Lifting State Up</h1>
       <h2 className="font-bold text-lg mb-3">Task 1: Name + Age</h2>
 
       {/* NameInput */}

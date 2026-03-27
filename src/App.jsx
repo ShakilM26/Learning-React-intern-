@@ -11,11 +11,12 @@ import ValidationForm from './Learning Journey/Form Handling/MultipleInput';
 import UncontrolledForm from './Learning Journey/Form Handling/UncontrolledForm';
 import ParentInfo from './Learning Journey/Lifting State Up/Parent';
 import Composition from './Learning Journey/Composition/Composition';
+import Render from './Learning Journey/Render Props/RenderProps';
 
 function App() {
   return (
     <>
-    <Composition />
+    <ParentInfo />
     </>
   )
 }

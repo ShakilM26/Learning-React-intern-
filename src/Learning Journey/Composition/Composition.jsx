@@ -2,6 +2,7 @@ import Card from "./Card";
 export default function Composition(){
     return(
         <div>
+            <h2>Composition Practice</h2>
             <Card>
                 <h2>User Profile</h2>
                 <p>Name: Shakil</p>
