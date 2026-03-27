@@ -31,7 +31,7 @@ export default function ParentInfo() {
       />
 
       <p className="mt-4 text-blue-700 font-medium">
-        Hello, my name is {info.name || "___"} and I am {info.age || "__"} years old.
+        Hello, my name is <strong> {info.name || "___"} </strong> and I am <strong>{info.age || "__"}</strong> years old.
       </p>
     </div>
   );

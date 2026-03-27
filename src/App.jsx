@@ -10,11 +10,12 @@ import SimpleForm from './Learning Journey/Form Handling/FormHandling'
 import ValidationForm from './Learning Journey/Form Handling/MultipleInput';
 import UncontrolledForm from './Learning Journey/Form Handling/UncontrolledForm';
 import ParentInfo from './Learning Journey/Lifting State Up/Parent';
+import Composition from './Learning Journey/Composition/Composition';
 
 function App() {
   return (
     <>
-    <ParentInfo />
+    <Composition />
     </>
   )
 }
