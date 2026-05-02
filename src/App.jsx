@@ -10,13 +10,14 @@ import ParentInfo from './Learning Journey/Lifting State Up/Parent';
 import Composition from './Learning Journey/Composition/Composition';
 import Render from './Learning Journey/Render Props/RenderProps';
 import Parent from './Learning Journey/Context API/Theme/Parent';
-import FetchData from './Learning Journey/Hooks/useEffect1';
+import Form from './Learning Journey/Hooks/useState';
 import TimerExample from './Learning Journey/Hooks/useEffect2';
+import Profile from './May-Learning/ComponentsProps';
 
 function App() {
   return (
     <>
-    <TimerExample />
+    <Profile />
     </>
   )
 }
